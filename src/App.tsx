@@ -7,12 +7,24 @@ function App() {
     <div className="App">
       <header className="App-header">
         <nav className='nav-bar'>
-          <ul>
+          <ul className='nav-list'>
             <li>
               <a>Exp Costs</a>
             </li>
             <li>
-              <a>Combat</a>
+              <a>Dice Roller</a>
+            </li>
+            <li>
+              <div>
+                <a>Combat</a>
+                <ul className='nav-drop-down'>
+                  <li><a>Combat Actions</a></li>
+                  <li><a>Hit Locations</a></li>
+                  <li><a>Conditions and Damage</a></li>
+                  <li><a>Combat Circumstances</a></li>
+                  <li><a>Combat Difficulty Examples</a></li>
+                </ul>
+              </div>
             </li>
             <li>
               <a>Critical Hits</a>
@@ -22,6 +34,18 @@ function App() {
             </li>
             <li>
               <a>Weapons</a>
+            </li>
+            <li>
+              <a>Armour</a>
+            </li>
+            <li>
+              <a>Psyker</a>
+            </li>
+            <li>
+              <a>Character</a>
+            </li>
+            <li>
+              <a>Effects</a>
             </li>
           </ul>
         </nav>

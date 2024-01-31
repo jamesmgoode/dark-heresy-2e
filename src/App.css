@@ -37,22 +37,39 @@
   }
 }
 
-nav ul {
+.nav-list {
   list-style: none;
 }
 
-nav ul li {
+.nav-list li {
   display: inline-block;
-  :hover {
-    background-color: #63676f;
-  }
 }
 
-nav ul li a {
+.nav-list li a {
   margin: 10px;
   padding: 10px;
   border-radius: 8px;
   cursor: pointer;
-
   background-color: #444851;
+  position: relative;
+}
+
+.nav-list li a:hover {
+  background-color: #63676f;
+}
+
+.nav-list li:hover {
+  .nav-drop-down li {
+    display: block;
+  }
+}
+
+.nav-drop-down {
+  position: absolute;
+  padding: 0;
+  text-align: left;
+}
+
+.nav-drop-down li {
+  display: none;
 }

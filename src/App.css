@@ -50,6 +50,8 @@
   padding: 10px;
   border-radius: 8px;
   cursor: pointer;
+  text-decoration: none;
+  color: white;
   background-color: #444851;
   position: relative;
 }

@@ -1,6 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { NavLink, Routes, Route } from 'react-router-dom';
+import DiceRoller from './pages/dice-roller';
+import ExpCosts from './pages/exp-costs';
 
 function App() {
   return (
@@ -9,10 +10,10 @@ function App() {
         <nav className='nav-bar'>
           <ul className='nav-list'>
             <li>
-              <a>Exp Costs</a>
+              <NavLink to={'./dice-roller'}>Dice Roller</NavLink>
             </li>
             <li>
-              <a>Dice Roller</a>
+              <NavLink to={'./exp-costs'}>Exp Costs</NavLink>
             </li>
             <li>
               <div>
@@ -51,8 +52,11 @@ function App() {
         </nav>
       </header>
       <div>
-        <h1>Heading</h1>
-        <p>Content</p>
+        <Routes>
+          <Route path='/' element={<DiceRoller />} />
+          <Route path='/dice-roller' element={<DiceRoller />} />
+          <Route path='/exp-costs' element={<ExpCosts />} />
+        </Routes>
       </div>
     </div>
   );

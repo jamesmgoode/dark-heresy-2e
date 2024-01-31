@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Attacking a Surprised or Unaware target.",
+        "effect": 30,
+        "class": "Combat"
+    },
+    {
+        "name": "Attacking a Massive (Size [7]) target.",
+        "effect": 30,
+        "class": "Combat"
+    },
+    {
+        "name": "Shooting a target at Point Blank range.",
+        "effect": 30,
+        "class": "Shooting"
+    },
+    {
+        "name": "Evading an attack that has been anticipated for at least one round.",
+        "effect": 30,
+        "class": "Combat"
+    },
+    {
+        "name": "Melee"
+    },
+    {
+        "name": "Shooting at a target at Long range.",
+        "effect": -10,
+        "class": "Shooting"
+    }
+]

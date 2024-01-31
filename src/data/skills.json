@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Weapon Skill",
+        "classes": [
+            "Combat",
+            "Melee"
+        ]
+    },
+    {
+        "name": "Ballistic Skill",
+        "classes": [
+            "Combat",
+            "Shooting"
+        ]
+    }
+]

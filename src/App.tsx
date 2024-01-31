@@ -6,34 +6,30 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className="nav-bar">
-          <a>Exp Costs</a>
-          <div>
-            <button>Combat</button>
-          </div>
-          <div>
-            <button>Critical Hits</button>
-          </div>
-          <div>
-            <button>Equipment</button>
-          </div>
-          <div>
-            <button>Weapons</button>
-          </div>
-        </div>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <nav className='nav-bar'>
+          <ul>
+            <li>
+              <a>Exp Costs</a>
+            </li>
+            <li>
+              <a>Combat</a>
+            </li>
+            <li>
+              <a>Critical Hits</a>
+            </li>
+            <li>
+              <a>Equipment</a>
+            </li>
+            <li>
+              <a>Weapons</a>
+            </li>
+          </ul>
+        </nav>
       </header>
+      <div>
+        <h1>Heading</h1>
+        <p>Content</p>
+      </div>
     </div>
   );
 }

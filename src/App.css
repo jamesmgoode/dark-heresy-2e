@@ -15,7 +15,6 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,11 +31,28 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
-.nav-bar {
-  font-size: medium;
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  :hover {
+    background-color: #63676f;
+  }
+}
+
+nav ul li a {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+
+  background-color: #444851;
 }
